@@ -7,12 +7,13 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1> 
+      <h1>Cifra de Caesar</h1> 
     </div>
     <form action="">
-      <input type="number" id="desloc"  value="">
-      <input type="text" id="caixa1" value="">
-      <input type="submit" id="btn" value="Codificar">
+      <input type="number" id="desloc" >
+      <input type="text" id="caixa1" >
+      <input type="submit" id="btn" onclick="clickcode()" value="Codificar"> <!-- falta chamar a funcao clickcode() -->
+      <input type="text" id="msgcode" value="">
       <input type="text" id="caixa2" value="">
       <input type="submit" id="btn" value="Decodificar">
     </form>
