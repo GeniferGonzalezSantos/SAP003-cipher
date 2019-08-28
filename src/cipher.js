@@ -20,8 +20,6 @@ function encode(msg, offset) {
       valorLetraCifrada = msg[i];
     }
     abc += valorLetraCifrada;
-    //console.log("valor de abc = " + abc);
-    //valorLetraCifrada = String.fromCharCode(formula);
   }
   return abc;
 }
