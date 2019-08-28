@@ -5,17 +5,50 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   <body>
-    <div id="root">
-      <h1>Cifra de Caesar</h1> 
+    <nav class="navbar">
+          <div class="logo">
+              <a href=""><p>A melhor idade</p></a>
+          </div>
+          <div class="links">
+              <ul>
+                  <li><a href="Decode">Decodificar</a></li>
+                  <li><a href="Code">Codificar</a></li>
+                  <li><a href="Historias">Historias</a></li>
+              </ul>
+          </div>
+      </nav>
+      <header>
+        <div class="container">
+          <div class="img">
+            <img src="imagens/header.jpeg" alt=""> <!--IMAGEM NAO RECONHECIDA :s -->
+          </div>
+          <div class="text">
+            <p> TEXTO EXPLICATIVO</p>
+          </div>
+        </div>
+      </header>
+    <section>
+      <div class="sectionDecode"> 
+        <form action="">
+          <div class="decode">
+          <input type="number" id="desloc" >
+          <input type="submit" id="btnDecode"  value="Decodificar"> <!--onclick="clickDecode()"-->
+          <input type="text" id="caixa2" value="">
+        </form>
+      </div>
+      </div>
+    </section>
+    <div>
+      <form action="">
+        <div class="Code">
+          <input type="text" id="caixa1" >
+          <input type="submit" id="btnCode"  value="Codificar"> <!--onclick="clickcode()"-->
+          <input type="text" id="msgcode" value="">
+        </div>
+      </form>
     </div>
-    <form action="">
-      <input type="number" id="desloc" >
-      <input type="text" id="caixa1" >
-      <input type="submit" id="btn" onclick="clickcode()" value="Codificar"> <!-- falta chamar a funcao clickcode() -->
-      <input type="text" id="msgcode" value="">
-      <input type="submit" id="btn" onclick="clickDecode()" value="Decodificar">
-      <input type="text" id="caixa2" value="">
-    </form>
+    <footer></footer>
+  
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

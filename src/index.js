@@ -1,5 +1,7 @@
+document.getElementById("btnDecode").addEventListener("click",clickDecode);
+document.getElementById("btnCode").addEventListener("click",clickCode);
 
-function clickcode() {
+function clickCode() {
    event.preventDefault();
    let msg = document.getElementById("caixa1").value;
    let offset = parseInt(document.getElementById("desloc").value);
