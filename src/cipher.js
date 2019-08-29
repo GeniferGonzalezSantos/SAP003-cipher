@@ -3,7 +3,7 @@ window.cipher = {
   decode: decode
 };
 
-function encode(msg, offset) {
+function encode(offset, msg) {
   let abc = "";
   let formula;
   let valorLetraCifrada;
@@ -24,7 +24,7 @@ function encode(msg, offset) {
   return abc;
 }
 
-function decode(msg, offset) {
+function decode(offset, msg) {
   let abc = "";
   let formulaDecifra;
   let valorLetraDecifra;
@@ -44,6 +44,3 @@ function decode(msg, offset) {
   }
   return abc;
 }
-
-
-
