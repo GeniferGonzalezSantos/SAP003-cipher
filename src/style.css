@@ -44,29 +44,76 @@ header {
     width: 1024px;
 }
 .container {
-    background-image: url("..src/imagens/header.jpeg");
-    display: flex;
-    /*grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-areas: "text img img";*/
+    /*background-image: url("..src/imagens/header.jpeg");*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: "conteudo img img";
     justify-content: center;
     height: 500px;
     margin-bottom: 10px;
-    width: 1024px;
+    
 }
-.img {
-    /*background-image: url("..src/imagens/header.jpeg");*/
+ .img {
+    background-image: url("..src/imagens/header.jpeg");
     display: flex;
     grid-area: img;
     justify-content: center;
     object-fit: cover;
+} 
+.conteudo{
+    grid-area: conteudo;
+    display: flex;
+    flex-direction: column;
+    height: 2px;
+    justify-content: center;
+    margin-right: 20px;
+    z-index: 1;
 }
-.text {
-    color:#D0E5F2;
+.text, h2, h3 {
+    color: #D93D4A;
     line-height: 1.5rem;
     margin-bottom: 25px;
     font-size: 0.8rem;
-    font-family: 'PT Mono', monospace;
+    font-family: 'PT Mono', monos;   
 }
+#desloc{
+    background: #F2B705;
+    border-radius: 10px;
+    border: none;
+    color: #D0E5F2;
+    font-family: 'PT Mono', monospace;
+    font-size: 0.3rem;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+}
+.p1{
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#D93D4A ;
+}
+#btnDecode{
+    background: #F2B705;
+    border-radius: 10px;
+    border: none;
+    color: #8187A6;
+    font-family: 'PT Mono', monospace;
+    font-size: 1,0rem;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+}
+ #caixa2{
+    background: #F2B705;
+    border-radius: 10px;
+    border: none;
+    color:#8187A6;
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2rem;
+   
+}
+
 
 footer {
     display: flex;

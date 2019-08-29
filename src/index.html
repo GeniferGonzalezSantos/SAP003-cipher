@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  <body>
-    <nav class="navbar">
-          <div class="logo">
-              <a href=""><p>A melhor idade</p></a>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="">
+        <p>A melhor idade</p>
+      </a>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="Decode">Decodificar</a></li>
+        <li><a href="Code">Codificar</a></li>
+        <li><a href="Historias">Historias</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <div class="conteudo">
+        <div class="textos">
+          <h2>O que é a Cifra de César?</h2> <br>
+          <p class="text">
+            Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de César,é
+            uma das mais simples e conhecidas técnicas de criptografia.Júlio César, imperador romano de 100 a.C. a 44
+            a.C., utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse
+            em mãos inimigas, a informação não poderia ser compreendida. </p>
+          <div class="textos">
+            <h2>Como funciona: </h2>
+            <p class="text">
+              É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta
+              no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria
+              substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que
+              o usou para se comunicar com os seus generais. </p>
           </div>
-          <div class="links">
-              <ul>
-                  <li><a href="Decode">Decodificar</a></li>
-                  <li><a href="Code">Codificar</a></li>
-                  <li><a href="Historias">Historias</a></li>
-              </ul>
-          </div>
-      </nav>
-      <header>
-        <div class="container">
-          <div class="img">
-            <img src="imagens/header.jpeg" alt=""> <!--IMAGEM NAO RECONHECIDA :s -->
-          </div>
-          <div class="text">
-            <p> TEXTO EXPLICATIVO</p>
+          
+          <div class="textos">
+            <h2>Qual nosso objetivo?</h2> <br>
+            <p class="text">
+              Fazer com que a terceira idade, a melhor idade, esteja em contato com a tecnologia e, ao mesmo tempo,
+              execíte o que temos de mais valioso, o cérebro!</p>
           </div>
         </div>
-      </header>
-    <section>
-      <div class="sectionDecode"> 
-        <form action="">
-          <div class="decode">
-          <input type="number" id="desloc" >
-          <input type="submit" id="btnDecode"  value="Decodificar"> <!--onclick="clickDecode()"-->
-          <input type="text" id="caixa2" value="">
-        </form>
       </div>
-      </div>
-    </section>
-    <div>
+      <div class="img">
+            <img src="imagens/header.jpeg" alt="">
+          </div>
+    </div>
+  </header>
+  <section>
+    <div class="sectionDecode">
       <form action="">
-        <div class="Code">
-          <input type="text" id="caixa1" >
-          <input type="submit" id="btnCode"  value="Codificar"> <!--onclick="clickcode()"-->
-          <input type="text" id="msgcode" value="">
-        </div>
+        <div class="decode">
+          <h3> Escreva seu deslocamento</h3><input type="number" id="desloc"> <br><br>
+          <h3>Coloque sua menssagem codificada</h3><textarea id="caixa2" cols="30" rows="10"></textarea> <br>
+          <!--<input type="text" id=>-->
+          <input type="submit" id="btnDecode" value="Decodificar">
+          <!--onclick="clickDecode()"-->
       </form>
     </div>
-    <footer></footer>
-  
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    </div>
+  </section>
+  <div>
+    <form action="">
+      <div class="Code">
+        <input type="text" id="caixa1">
+        <input type="submit" id="btnCode" value="Codificar">
+        <!--onclick="clickcode()"-->
+        <input type="text" id="msgcode" value="">
+      </div>
+    </form>
+  </div>
+  <footer></footer>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
