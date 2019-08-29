@@ -44,7 +44,6 @@ header {
     width: 1024px;
 }
 .container {
-    /*background-image: url("..src/imagens/header.jpeg");*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-areas: "conteudo img img";
@@ -55,10 +54,13 @@ header {
 }
  .img {
     background-image: url("..src/imagens/header.jpeg");
+    background-size: cover;
     display: flex;
     grid-area: img;
     justify-content: center;
     object-fit: cover;
+    margin-left: 37px;
+   
 } 
 .conteudo{
     grid-area: conteudo;
@@ -67,7 +69,7 @@ header {
     height: 2px;
     justify-content: center;
     margin-right: 20px;
-    z-index: 1;
+    
 }
 .text, h2, h3 {
     color: #D93D4A;
@@ -75,6 +77,7 @@ header {
     margin-bottom: 25px;
     font-size: 0.8rem;
     font-family: 'PT Mono', monos;   
+    
 }
 #desloc{
     background: #F2B705;
