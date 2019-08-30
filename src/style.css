@@ -57,6 +57,7 @@ header {
     background-size: cover;
     display: flex;
     grid-area: img;
+    height: 500px;
     justify-content: center;
     object-fit: cover;
     margin-left: 37px;
@@ -65,18 +66,18 @@ header {
 .conteudo{
     grid-area: conteudo;
     display: flex;
-    flex-direction: column;
-    height: 2px;
+    flex-direction: row;
     justify-content: center;
     margin-right: 20px;
+    
     
 }
 .text, h2, h3 {
     color: #D93D4A;
-    line-height: 1.5rem;
-    margin-bottom: 25px;
-    font-size: 0.8rem;
-    font-family: 'PT Mono', monos;   
+    line-height: 1.1rem;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-family: 'PT Mono', monos;
     
 }
 #desloc{
@@ -95,6 +96,15 @@ header {
     font-size: 1.2rem;
     text-decoration: none;
     color:#D93D4A ;
+}
+#caixa1{
+    background: #F2B705;
+    border-radius: 10px;
+    border: none;
+    color:#8187A6;
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2rem;
+
 }
 #btnDecode{
     background: #F2B705;
