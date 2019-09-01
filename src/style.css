@@ -1,7 +1,6 @@
 body{
     background:#D0E5F2 ;
 }
-
 body, ul, li, p, a{
     margin: 0px;
     padding: 0px;
@@ -22,7 +21,6 @@ body, ul, li, p, a{
 .navbar ul {
     display: flex;
 }
-
 .navbar .links ul li {
     align-items: center;
     display: flex;
@@ -39,101 +37,103 @@ body, ul, li, p, a{
     text-decoration: none;
     color: #D0E5F2;
 }
-header {
-    margin: 0 auto;
-    width: 1024px;
-}
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-areas: "conteudo img img";
+    display: flex;
     justify-content: center;
     height: 500px;
     margin-bottom: 10px;
     
 }
- .img {
-    background-image: url("..src/imagens/header.jpeg");
+img {
     background-size: cover;
-    display: flex;
     grid-area: img;
     height: 500px;
-    justify-content: center;
+    justify-content: right;
     object-fit: cover;
-    margin-left: 37px;
+    margin-left: 40px;
    
 } 
 .conteudo{
-    grid-area: conteudo;
-    display: flex;
-    flex-direction: row;
+    margin-top: 10px;
     justify-content: center;
-    margin-right: 20px;
-    
-    
+    margin-left: 20px;   
 }
 .text, h2, h3 {
     color: #D93D4A;
-    line-height: 1.1rem;
+    line-height: 1.2rem;
     margin-bottom: 15px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-family: 'PT Mono', monos;
-    
+}
+.deslocamento{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #desloc{
     background: #F2B705;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    color: #D0E5F2;
-    font-family: 'PT Mono', monospace;
-    font-size: 0.3rem;
-    font-weight: 600;
-    padding: 5px;
+    color: #8187A6;
     cursor: pointer;
-}
-.p1{
     font-family: 'PT Mono', monospace;
     font-size: 1.2rem;
-    text-decoration: none;
-    color:#D93D4A ;
+    font-weight: bold;
+    height: 30px;
+    padding: 3px;
+    width: 40px;
+    margin-left: 30px;
 }
-#caixa1{
+.fileira{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.entradaTexto, .saidaTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    margin:  10px;
+    width: 50%;
+}
+#labelEntrada, #labelsaida{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.caixa{
     background: #F2B705;
     border-radius: 10px;
     border: none;
     color:#8187A6;
     font-family: 'PT Mono', monospace;
-    font-size: 1.2rem;
-
+    font-weight: bold;
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
 }
-#btnDecode{
+.btn{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+#btnDecode, #btnCode{
     background: #F2B705;
     border-radius: 10px;
     border: none;
     color: #8187A6;
     font-family: 'PT Mono', monospace;
-    font-size: 1,0rem;
-    font-weight: 600;
+    font-size: 1,2rem;
+    font-weight: bold;
     padding: 15px;
     cursor: pointer;
+    margin: 5px;
 }
- #caixa2{
-    background: #F2B705;
-    border-radius: 10px;
-    border: none;
-    color:#8187A6;
-    font-family: 'PT Mono', monospace;
-    font-size: 1.2rem;
-   
-}
-
-
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
     background: #D93D4A;
-    /*color:#D93D4A;*/
     padding: 20px 25px;
 }

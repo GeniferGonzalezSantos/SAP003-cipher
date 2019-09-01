@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-
+</head>
 <body>
   <nav class="navbar">
     <div class="logo">
@@ -15,9 +14,8 @@
     </div>
     <div class="links">
       <ul>
-        <li><a href="Decode">Decodificar</a></li>
-        <li><a href="Code">Codificar</a></li>
-        <li><a href="Historias">Historias</a></li>
+        <li><a href="#entradaTexto">Decodificar</a></li>
+        <li><a href="#saidaTexto">Codificar</a></li>
       </ul>
     </div>
   </nav>
@@ -26,19 +24,20 @@
       <div class="conteudo">
         <div class="textos">
           <h2>O que é a Cifra de César?</h2> 
-          <p class="text">  Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de César,é
-            uma das mais simples e conhecidas técnicas de criptografia.Júlio César, imperador romano de 100 a.C. a 44
+          <p class="text">  Em criptografia, a Cifra de César,é
+            uma das mais simples e conhecidas técnicas de criptografia. Júlio César, imperador romano de 100 a.C. a 44
             a.C., utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse
             em mãos inimigas, a informação não poderia ser compreendida. </p>
           <div class="textos">
             <h2>Como funciona: </h2>
             <p class="text">É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta
               no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de duas posições, A seria
-              substituído por C, B se tornaria D, e assim por diante.</p>
+              substituído por C, B se tornaria D, e assim por diante. Coloque sua mensagem na caixa de texto e ela poderá ser codificada ou decodificada.</p>
           </div><div class="textos">
             <h2>Qual nosso objetivo?</h2> 
             <p class="text">Fazer com que a terceira idade, a melhor idade, esteja em contato com a tecnologia e, ao mesmo tempo,
-              execíte o que temos de mais valioso, o cérebro!</p> 
+            execíte o que temos de mais valioso, o cérebro!
+            Desenvolvendo, também, habilidades como a escrita, digitação e estimula o raciocínio </p> 
           </div>
         </div>
       </div>
@@ -48,26 +47,25 @@
     </div>
   </header>
   <section>
-    <div class="sectionDecode">
-      <form action="">
-        <div class="decode">
-          <h3> Escreva seu deslocamento</h3><input type="number" id="desloc"> <br>
-          <h3>Coloque sua menssagem codificada</h3> <textarea id = "caixa1" cols="30" rows="10" value=""></textarea>
-          <input type="submit" id="btnCode" value="Codificar">
-          <textarea id="msgcode" cols="30" rows="10" value=""></textarea>
-        </form>
+    <div class="deslocamento"> 
+        <h3>Escreva seu deslocamento</h3>
+        <input type="number" id="desloc"> <br>
+    </div>
+    <div class="fileira"> 
+    <div class="entradaTexto">
+      <label for="entradaTexto"><h3 id="labelEntrada">Coloque sua mensagem</h3></label>
+      <textarea name="entradaTexto" class="caixa" id="entradaTexto" cols="30" rows="10"></textarea>
+      <div class="btn"> 
+        <input type="submit" id="btnDecode" value="Decodificar">
+        <input type="submit" id="btnCode" value=" Codificar ">
       </div>
     </div>
-  </section>
-  <div>
-    <form action="">
-      <div class="Code">
-        <!--onclick="clickcode()"-->
-        <textarea id="caixa2" cols="30" rows="10"></textarea> <br>
-        <input type="submit" id="btnDecode" value="Decodificar">
-      </div>
-    </form>
+    <div class="saidaTexto">
+        <label for="saidaTexto"><h3 id="labelsaida">Sua mensagem</h3></label>
+        <textarea name="saidaTexto" class="caixa" id="saidaTexto" cols="30" rows="10"></textarea>
+    </div>
   </div>
+  </section>
   <footer></footer>
 
   <script src="cipher.js"></script>
