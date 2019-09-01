@@ -4,10 +4,10 @@
 
 * [1. Título](#1-Título)
 * [2. O projeto](#2-resumo-do-projeto)
-* [3. O Objetivos ](#3-objetivos)
+* [3. O Objetivo ](#3-objetivos)
 * [4. A estrutura do projeto](#4-a-estrutura-do-projeto)
 * [5. Considerações técnicas](#5-considerações-técnicas)
-* [6. Autoria de considerações](#6-Autoria-e-considerações)
+* [6. Autoria e considerações](#6-Autoria-e-considerações)
 
 ***
 
@@ -24,7 +24,7 @@ em mãos inimigas, a informação não poderia ser compreendida.
 no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de duas posições, A seria
 substituído por C, B se tornaria D, e assim por diante. 
 
-## 3. O Objetivos:
+## 3. O Objetivo:
 
 Fazer com que a terceira idade, a melhor idade, esteja em contato com a tecnologia e, ao mesmo tempo,exercite e mantenha com saúde o que temos de mais valioso: o cérebro.
 Por meio de um texto codificado que relata uma história real ou ficctícia, o usuário deve escrevê-lo de acordo com a posição escolhida na caixa de texto. Logo, pode comprovar se está correto o texto decodificado. Dessa forma, o usuário desenvolve várias habilidades como: memória, escrita, digitaçao, estimula o raciocínio, entre outros. 
@@ -55,8 +55,8 @@ https://genifergonzalezsantos.github.io/SAP003-cipher/
 ## 5. Guias, dicas e leituras complementares utilizados para o projeto:
 
 ### Documentação:
-* [Mozzila] (https://developer.mozilla.org/pt-BR/)
-* [w3school] (https://www.w3schools.com/)
+* [mozzilla] (https://developer.mozilla.org/pt-BR/)
+* [w3schools] (https://www.w3schools.com/)
 
 ### Vídeos:
 * [JornadaDev](https://jornadadodev.com.br/)
