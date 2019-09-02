@@ -33,6 +33,8 @@ Por meio de um texto codificado que relata uma história real ou ficctícia, o u
 
 https://genifergonzalezsantos.github.io/SAP003-cipher/src
 
+* O projeto só funciona em google chrome!
+
 
 ## 4 Considerações técnicas:
 
