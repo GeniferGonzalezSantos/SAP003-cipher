@@ -55,8 +55,8 @@ https://genifergonzalezsantos.github.io/SAP003-cipher/
 ## 5. Guias, dicas e leituras complementares utilizados para o projeto:
 
 ### Documentação:
-* [Mozilla]    (https://developer.mozilla.org/pt-BR/)
-* [w3schools]  (https://www.w3schools.com/)
+* [Mozilla](https://developer.mozilla.org/pt-BR/)
+* [w3schools](https://www.w3schools.com/)
 
 ### Vídeos:
 * [JornadaDev](https://jornadadodev.com.br/)
