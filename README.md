@@ -41,9 +41,8 @@ https://genifergonzalezsantos.github.io/SAP003-cipher/src
 * HTML5
 * CSS3
 * Javascript (ES6)
-* Node.js
 * IDE: Visual Studio Code
-* Sistema operacional: Linux ubunto e Linux Xubunto
+* Sistema operacional: Linux 
 
 ### Estrutura do projeto:
 
